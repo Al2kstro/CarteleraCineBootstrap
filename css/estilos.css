@@ -1,0 +1,60 @@
+.cinema-body{
+   background-color: #e8ebe4;
+}
+
+.navbar-inverse{
+   background-color: #391091;
+   min-height: 10%;
+}
+
+.container-fluid{
+   margin-top: 64px;
+}
+
+.jumbotron{
+   background-color: #647378;
+   min-height: 500px;
+   margin-bottom: 0;
+   border-radius: 0 !important;
+}
+
+.titulo-cartelera{
+   min-height: 45px;
+   background-color: #391091;
+}
+
+.movies-row{
+   background-color: #647378;
+   min-height: 350px;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+.movies-column{
+   margin-top: 5px;
+   background-color: #647378;
+   min-height: 330px;
+   border: 1px dashed #FFFFFF;
+}
+
+.left-column{
+   margin-right: 1px dashed #FFFFFF;
+}
+
+@media (max-width:770px){
+   .right-column{
+      display: none;
+   }
+
+   .movies-row{
+      min-height: 250px;
+   }
+
+   .movies-column{
+      min-height: 230px;
+   }
+
+   .jumbotron{
+      min-height: 350px;
+   }
+}
